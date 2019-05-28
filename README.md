@@ -1,6 +1,12 @@
 # Audio recording with python
 
+Any comments and suggestions are apreciated
 
+## Intall pyaudio and others dependencies
+
+```pip install pyaudio```
+
+and repeat for others modules that may be needed
 
 ## Simple usage
 
