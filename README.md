@@ -2,7 +2,7 @@
 
 
 
-##Simple usage
+## Simple usage
 
 on command line type to start recording:
 
@@ -10,7 +10,7 @@ on command line type to start recording:
 
 just press any key to stop
 
-##Advanced settings
+## Advanced settings
 There are a few other options that can be provided, you can check with 
 
 ```python record.py -h```
@@ -50,6 +50,6 @@ optional arguments:
 
   -delay DELAY        How many seconds to wait before start recording
                       (default: 0)
-                      
+
   -playback           if especified, it will playback the audio in the mic to
                       the speakers (default: False)
