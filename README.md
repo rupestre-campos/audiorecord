@@ -1,20 +1,21 @@
-Very simple audio recording with python
+# Audio recording with python
 
 
 
-Simple usage
+##__Simple usage__
 
 on command line type to start recording:
 
-python record.py
+```python record.py```
 
 just press any key to stop
 
+##__Advanced settings__
 There are a few other options that can be provided, you can check with 
 
-python record.py -h
+```python record.py -h```
 
-
+```
 usage: record.py [-h] [-outwave OUTWAVE] [-channels CHANNELS] [-rate RATE]
                  [-bit BIT] [-chunk CHUNK] [-ovr] [-tempfile TEMPFILE]
                  [-delay DELAY] [-playback]
@@ -41,4 +42,4 @@ optional arguments:
   -delay DELAY        How many seconds to wait before start recording
                       (default: 0)
   -playback           if especified, it will playback the audio in the mic to
-                      the speakers (default: False)
+                      the speakers (default: False)```
