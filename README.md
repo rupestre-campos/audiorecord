@@ -17,9 +17,7 @@ There are a few other options that can be provided, you can check with
 
 
     usage: record.py [-h] [-outwave OUTWAVE] [-channels CHANNELS] [-rate RATE]
-    
                      [-bit BIT] [-chunk CHUNK] [-ovr] [-tempfile TEMPFILE]
-    
                      [-delay DELAY] [-playback]
     
     record wave files from default pc mic input
@@ -28,7 +26,7 @@ There are a few other options that can be provided, you can check with
       -h, --help          show this help message and exit
       -outwave OUTWAVE    Name or path of output recording wave file (default:
                           record.wav)
-    
+                          
       -channels CHANNELS  1, 2 or more channels to record (default: 2)
     
       -rate RATE          unit in Hz use 44100 for cd quality, 48000 for studio,
