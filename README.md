@@ -2,11 +2,11 @@
 
 Any comments and suggestions are apreciated
 
-## Intall pyaudio and others dependencies
+## Install pyaudio and others dependencies
 
 ```pip install pyaudio```
 
-and repeat for others modules that may be needed
+and repeat for others modules that may be needed like matplotlib, etc
 
 ## Simple usage
 
@@ -20,6 +20,10 @@ just press any key to stop
 There are a few other options that can be provided, you can check with 
 
 ```python record.py -h```
+
+examples are:
+
+```python record.py -outwave beatles.wav -bit 16 -playback```
 
 
     usage: record.py [-h] [-outwave OUTWAVE] [-channels CHANNELS] [-rate RATE]
